@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "http://15astro.github.io/hugo_static_pages/"
 languageCode = "en-US"
 title = "Atish's Blog"
 # Enable comments by entering your Disqus shortname
