@@ -1,0 +1,45 @@
+baseURL = "https://example.com/"
+languageCode = "en-US"
+title = "Atish's Blog"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/profile.png"
+  author = "Atish Andhare"
+  description = "Data Platform Reliability Engineer, Distributed Systems and Data. Running Data Infra at global scale."
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "15astro"
+  Email         = "andhareatish@gmail.com"
+  Twitter       = "AtishAndhare"
+  LinkedIn      = "andhareartish"
+  Stackoverflow = "users/3345844/atish"
+  Medium        = "andhareatish"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
